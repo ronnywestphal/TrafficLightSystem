@@ -1,0 +1,8 @@
+../Core/Src/crossing_functions.c:24:6:HAL_GPIO_EXTI_Callback	16	static
+../Core/Src/crossing_functions.c:73:6:toggleInterruptNextState	8	static
+../Core/Src/crossing_functions.c:89:6:yellowLeds	8	static
+../Core/Src/crossing_functions.c:99:6:checkNextState	8	static
+../Core/Src/crossing_functions.c:131:6:nextDirection	8	static
+../Core/Src/crossing_functions.c:148:6:blueStateToggle	8	static
+../Core/Src/crossing_functions.c:166:6:endBlueState	8	static
+../Core/Src/crossing_functions.c:179:6:afterBlueState	8	static

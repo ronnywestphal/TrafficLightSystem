@@ -1,0 +1,4 @@
+../Core/Src/freertos.c:79:6:MX_FREERTOS_Init	8	static
+../Core/Src/freertos.c:95:6:StateMachine	32	static
+../Core/Src/freertos.c:149:6:TransmitData	32	static
+../Core/Src/freertos.c:179:6:StartBlueLeds	24	static
