@@ -5,5 +5,5 @@ NUCLEO-L476RG with a traffic light shield.
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/84048902/219415244-5f02771e-b9cc-4208-873b-b8218f1b7cb7.png"
-height="450" />
+height="400" />
 </p>
