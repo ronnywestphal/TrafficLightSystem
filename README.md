@@ -49,6 +49,7 @@ handled independently:
 - a state machine
 - toggle the blue LEDs
 - contineously transmit LED pattern
+
 The state machine handles most of the functionality. It is divided
 in to three states:
 - Start - sets the next LED pattern
