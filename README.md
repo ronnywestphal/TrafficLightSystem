@@ -8,6 +8,19 @@ NUCLEO-L476RG with a traffic light shield.
 height="400" />
 </p>
 
+## FreeRTOS
+The system was divided into three functionalities that needed to be
+handled independently:
+- a state machine
+- toggle the blue LEDs
+- contineously transmit LED pattern
+
+The state machine handles most of the functionality. It is divided
+in to three states:
+- Start - sets the next LED pattern
+- DefaultState - keeps the current LED pattern on for a defined time
+- YellowState - sets the LED pattern to yellow for a defined time
+
 
 ## Traffic-Lights-API
 The Traffic-Lights-API handles the communication between the application 
@@ -43,19 +56,8 @@ handled by the same callback function.
    height="500" />
 </p>
 
-## FreeRTOS
-The system was divided into three functionalities that needed to be
-handled independently:
-- a state machine
-- toggle the blue LEDs
-- contineously transmit LED pattern
 
-The state machine handles most of the functionality. It is divided
-in to three states:
-- Start - sets the next LED pattern
-- DefaultState - keeps the current LED pattern on for a defined time
-- YellowState - sets the LED pattern to yellow for a defined time
-
+## System Diagram
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/84048902/219417126-796bb143-3587-4977-af61-eae045868214.jpg"
