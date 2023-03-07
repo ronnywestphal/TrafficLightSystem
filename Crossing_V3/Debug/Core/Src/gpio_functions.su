@@ -1,9 +1,0 @@
-../Core/Src/gpio_functions.c:24:6:gpio_setTrafficLight	16	static
-../Core/Src/gpio_functions.c:32:6:gpio_setMultipleLights	24	static
-../Core/Src/gpio_functions.c:42:6:gpio_togglePin	16	static
-../Core/Src/gpio_functions.c:53:6:pinState	16	static
-../Core/Src/gpio_functions.c:61:6:clearPin	16	static
-../Core/Src/gpio_functions.c:68:6:setPin	16	static
-../Core/Src/gpio_functions.c:74:6:gpio_clearAllNotBlue	4	static
-../Core/Src/gpio_functions.c:82:6:gpio_clearAllPins	16	static
-../Core/Src/gpio_functions.c:91:6:LED_pattern_transmit	8	static

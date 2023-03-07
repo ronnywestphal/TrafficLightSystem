@@ -1,5 +1,0 @@
-../Core/Src/test.c:18:6:testing	8	static
-../Core/Src/test.c:31:6:testGpioPinPosition	24	static
-../Core/Src/test.c:51:6:testClearingAndPatterns	16	static
-../Core/Src/test.c:89:6:testStateChangesAndInterrupts	8	static
-../Core/Src/test.c:133:6:stateMachineCopy	16	static
